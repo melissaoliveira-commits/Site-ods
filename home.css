@@ -10,7 +10,7 @@ body {
     /*imagem mapa*/
     background-image: 
      linear-gradient(rgba(84, 102, 119, 0.5), rgba(84, 102, 119, 0.5)),
-     url(imagens/MAPA_MUNDI_AZUL.png);
+     url(MAPA_MUNDI_AZUL.png);
     
 }
 
