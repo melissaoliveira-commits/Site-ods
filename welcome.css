@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.welcome-principal {
+    height: 100vh; 
+    display: flex;
+    align-items: center; 
+    padding-left: 5%;
+    background-color: #546677;
+
+    /*linhas*/
+     background-image: repeating-linear-gradient(
+        to right,
+        transparent 0px,
+        transparent 139px,
+        #6a89a7 140px,
+        transparent 141px);
+         
+    background-attachment: fixed;
+}
+.welcome-principal {
+    max-width: none;
+}
+
+/*ods16*/
+.texto-ods{
+     font-size: 1.2rem;
+    color: #88bdf2;
+    margin-bottom: 10px;
+}
+
+
+/*título*/
+.welcome-alinhar h1 {
+    font-size: 3rem;
+    color: #ddddde;
+    margin-bottom: 28px;
+}
+
+.jacques-francois-regular {
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*convite*/
+.texto-convite {
+    font-size: 1.2rem;
+    color: #88bdf2;
+    margin-bottom: 45px;
+}
+
+/*botão*/
+.entrar {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #6a89a7;
+    color: #f6f6f6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+/*mudança de cor na setinha quando passa pelo botão*/
+.entrar:hover {
+    background-color: #5a7693;
+}
+
+/*barra*/
+.barra-topo {
+    background-color: #6a89a7;
+    padding: 20px 5%;
+    width: 100%;
+    position: fixed;
+}
+.barra-topo {
+    border-bottom: 2px solid #5f7994;
+}
+
+.nome-site {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cfcdc7;
+    font-size: 1.7rem;
+    font-weight: 3px;
+    letter-spacing: 2px;
+}
+
+/*rodape*/
+.rodape-branco {
+    background-color: #ffffff;
+    color: #333333;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    border-radius: 5px;
+}
