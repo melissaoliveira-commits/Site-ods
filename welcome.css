@@ -98,3 +98,6 @@
     width: 100%;
     border-radius: 5px;
 }
+#nome-site{
+    cursor: pointer;
+}
