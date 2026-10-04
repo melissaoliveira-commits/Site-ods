@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+      scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 body {
     background-color: #546677;
@@ -13,6 +15,14 @@ body {
      url(MAPA_MUNDI_AZUL.png);
     
 }
+.jacques-francois-regular{
+    font-family: "Jacques Francois", serif;
+    color: #cfcdc7;
+    text-align: center;
+    font-size: 30px;
+}
+
+
 
 
 /*rodape*/
@@ -86,20 +96,9 @@ min-height: 1000px;
     align-items: center;
      width: 90%;
     margin: 0 auto;
-    margin-top: 180px;
-    background-color: #6a89a7cd;
+    margin-top: 100px;
     padding: 40px;
     border-radius: 0px;
-    border: 2px solid #415366;
-}
-.sub-titulo {
-    text-align: center;
-    text-decoration: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-    color: #cfcdc7;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .caixa-inicio {
     margin-right: auto;
@@ -115,6 +114,14 @@ min-height: 1000px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
+.descolaru{
+    padding: 40px;
+    margin-bottom: -4px;
+     background-color: #6a89a7cd;
+       border: 2px solid #415366;
+}
+
+
 
 .caixa-inicio-dois{
      margin-right: auto;
@@ -126,15 +133,6 @@ min-height: 1000px;
     width: 800px;
 }
 
-.sub-titulo-dois{
-    text-align: center;
-    text-decoration: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-    color: #cfcdc7;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 .paragrafo-dois{
     color: #cfcdc7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -142,6 +140,11 @@ min-height: 1000px;
 }
 a {
  color: #c0bfbc;
+}
+.descolard{
+    padding: 40px;
+    background-color: #6a89a7cd;
+      border: 2px solid #415366;
 }
  
 
@@ -156,7 +159,7 @@ a {
 /*acontecimentos*/
 #acontecimentos{
     color: #cfcdc7;
-    margin-top: 163px;
+    margin-top: 61px;
 }
 .linha-tempo{
     align-items: center;
@@ -176,3 +179,117 @@ a {
 .evento-texto{
     letter-spacing: 2px;
 }
+
+
+
+
+/*curiosidades*/
+#curiosidades{
+    color: #cfcdc7;
+    margin-top: 100px;
+    align-items: center;
+}
+.dia-e-simbolo{
+    display: flex;
+     margin-top: 39px;
+}
+.dudh-e-nobel{
+    display: flex;
+     margin-bottom: 120px;
+     margin-top: 10px;
+}
+.caixa-curiosidades{
+margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px;
+    padding: 20px;
+    background-color: #5f7994;
+     margin-left: 280px;
+    margin-right: 280px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.dia{
+    background-color: #6a89a7cd;
+     border-top: 7px solid #415366;
+    padding: 16px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.simbolo{
+    margin-left: 20px;
+    background-color: #6a89a7cd;
+     border-top: 7px solid #415366;
+      padding: 16px;
+      margin-left: 50px;
+    margin-right: 10px;
+}
+.dudh{
+    background-color: #6a89a7cd;
+     border-top: 7px solid #415366;
+      padding: 16px;
+      margin-left: 50px;
+    margin-right: 10px;
+}
+.nobel{
+    background-color: #6a89a7cd;
+     border-top: 7px solid #415366;
+      padding: 16px;
+      margin-left: 50px;
+    margin-right: 10px;
+}
+.azul{
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+}
+.azull{
+    color: #88bdf2;
+    font-size: 2.5rem;
+}
+.azulll{
+font-size: 20px;
+letter-spacing: 2px;
+}
+
+
+/*sobre*/
+#sobre{
+   margin-bottom: 30px; 
+}
+.caixa-sobre{
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0px;
+    padding: 20px;
+    background-color: #5f7994;
+     margin-left: 320px;
+    margin-right: 320px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.sobree{
+ background-color: #6a89a7cd;
+border: 2px solid #415366; 
+padding: 16px;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+}
+.h-sobre{
+    color: #88bdf2;
+    font-size: 22px;
+    font-weight: 1;
+    font-family: 'Times New Roman', Times, serif
+}
+.caractere{
+color: #88bdf2;
+font-size: 20px;
+}
+.paragrafo-sobre{
+    color: #cfcdc7;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
