@@ -81,12 +81,18 @@
    width: 100%;
    position: fixed;
    align-items: center;
-   justify-content: center;
+   justify-content: flex-start;
    display: flex;
+   border-bottom: solid 1px #cfcdc7;
 }
-.logoo{
+.juntos {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+.logo{
     width: 50px;
-    margin-left:-1020px; 
+       margin-right: 12px !important;
 }
    
 .nome-site {
