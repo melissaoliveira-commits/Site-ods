@@ -110,6 +110,14 @@ min-height: 1000px;
     padding: 40px;
     border-radius: 0px;
 }
+.voltar{
+    color: #cfcdc7;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+    font-size: 38px;
+    margin-bottom: 11px;
+}
 .caixa-inicio {
     margin-right: auto;
     margin-left: auto;
@@ -130,6 +138,10 @@ min-height: 1000px;
      background-color: #6a89a7cd;
        border: 2px solid #415366;
 }
+
+
+
+
 
 
 
@@ -316,7 +328,7 @@ margin-right: 50px;
 }
 .h-sobre{
     color: #88bdf2;
-    font-size: 22px;
+    font-size: 27px;
     font-weight: 1;
     font-family: 'Times New Roman', Times, serif
 }
